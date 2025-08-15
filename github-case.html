@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GitHub — Case Study — Himanshu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .hero { padding:3rem 1rem; }
+    .metric { background: rgba(59,130,246,0.12); color: #60a5fa; padding:.25rem .5rem; border-radius:6px; }
+    .container{ max-width:1000px; margin:0 auto }
+  </style>
+</head>
+<body class="bg-black text-white antialiased">
+  <header class="bg-black/95 backdrop-blur-sm border-b border-gray-900 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <h1 class="text-2xl font-pacifico">Himanshu.</h1>
+      <nav class="hidden md:flex items-center space-x-6">
+        <a href="index.html" class="text-gray-300 hover:text-white">Home</a>
+      </nav>
+      <!-- Mobile/Tablet Back Button -->
+      <a href="index.html" class="md:hidden text-gray-300 hover:text-white transition-colors">
+        <i class="ri-arrow-left-line text-xl"></i>
+      </a>
+    </div>
+  </header>
+
+  <main class="container px-6 py-16 my-12">
+  <section class="mb-6 mt-12">
+      <h2 class="text-3xl font-bold mb-2">GitHub — Reducing merge friction</h2>
+      <p class="text-gray-300 mb-4">One-line: Redesigned collaboration and review flows to reduce friction, increase reviewer throughput, and improve first-time contributor success.</p>
+      <div class="flex gap-3 items-center">
+        <div class="metric">Role: Lead UX / Product Designer</div>
+        <div class="text-gray-400 text-sm">Timeline: 3–4 months • Team: PM, 3 Eng, Researcher</div>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h3 class="text-xl font-semibold mb-2">Problem</h3>
+      <p class="text-gray-400">Reviewers missed high-priority PRs due to noisy notifications and weak signals; first-time contributors struggled to meet merging requirements without additional hand-holding. This led to bottlenecks and uneven code velocity across teams.</p>
+    </section>
+
+    <section class="mb-8">
+      <h3 class="text-xl font-semibold mb-2">Process</h3>
+      <ul class="text-gray-400 pl-5 list-disc">
+        <li>Stakeholder synthesis, analytics review and goal alignment to define success metrics.</li>
+        <li>Moderated usability tests (12 sessions) focused on PR discoverability and reviewer decision-making.</li>
+        <li>Sketches → wireframes → hi‑fi prototypes in Figma; motion specs for state transitions and microinteractions.</li>
+        <li>Implemented a feature-flagged A/B test with instrumentation for reviewer throughput and time-to-merge.</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h3 class="text-xl font-semibold mb-2">Design highlights</h3>
+      <p class="text-gray-400">Introduced clearer reviewer cues (priority badges, compact summaries), inline action affordances (quick-approve, ask-for-change), and a lightweight prioritization surface so reviewers can triage faster without context switching.</p>
+    </section>
+
+    <section class="mb-8">
+      <h3 class="text-xl font-semibold mb-2">Accessibility</h3>
+      <p class="text-gray-400">Ensured color contrast for badges, keyboard-accessible keyboard flows for triage, and ARIA-friendly labels for dynamic list updates so assistive tech users receive the same signal fidelity.</p>
+    </section>
+
+    <section class="mb-8">
+      <h3 class="text-xl font-semibold mb-2">Artifacts to include</h3>
+      <ul class="text-gray-400 pl-5 list-disc">
+        <li>Annotated before/after flow diagrams and decision trees</li>
+        <li>Figma prototypes showing microinteraction timing and motion specs</li>
+        <li>Experiment dashboards showing reviewer throughput, time-to-merge, and first-time contributor success</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h3 class="text-xl font-semibold mb-2">Outcome</h3>
+      <p class="text-gray-300">Anonymized results: ~+18% reviewer throughput and ~12% reduction in average time-to-merge in the A/B cohort. Qualitative feedback indicated clearer prioritization and smoother onboarding for first-time contributors.</p>
+    </section>
+
+    <section class="mb-8">
+      <h3 class="text-xl font-semibold mb-2">Metrics & measurement</h3>
+      <ul class="text-gray-400 pl-5 list-disc">
+        <li>Reviewer throughput: merged PRs per active reviewer per week (instrumented via code host telemetry).</li>
+        <li>Time-to-merge: distribution and median time between PR open and merge for controlled cohorts.</li>
+        <li>First-time contributor success: % of new contributors with a merged PR within 30 days.</li>
+      </ul>
+    </section>
+
+    <div class="flex gap-3 mb-16">
+      <a href="index.html" class="px-4 py-2 bg-gray-800 rounded-full border border-gray-700">Back</a>
+      <a href="#" class="px-4 py-2 bg-blue-600 rounded-full">Download one-pager (PDF)</a>
+    </div>
+  </main>
+</body>
+</html>

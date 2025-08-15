@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Uber — Case Study — Himanshu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>.container{max-width:1000px;margin:0 auto}.metric{background:rgba(59,130,246,0.12);color:#60a5fa;padding:.25rem .5rem;border-radius:6px}</style>
+</head>
+<body class="bg-black text-white antialiased">
+  <header class="bg-black/95 backdrop-blur-sm border-b border-gray-900 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <h1 class="text-2xl font-pacifico">Himanshu.</h1>
+      <nav class="hidden md:flex items-center space-x-6">
+        <a href="index.html" class="text-gray-300 hover:text-white">Home</a>
+      </nav>
+      <!-- Mobile/Tablet Back Button -->
+      <a href="index.html" class="md:hidden text-gray-300 hover:text-white transition-colors">
+        <i class="ri-arrow-left-line text-xl"></i>
+      </a>
+    </div>
+  </header>
+
+  <main class="container px-6 py-16 my-12">
+  <section class="mb-6 mt-12">
+      <h2 class="text-3xl font-bold mb-2">Uber — Pickup confidence in dense cities</h2>
+      <p class="text-gray-300 mb-4">Reimagined map interactions and pickup confirmations to reduce rider confusion and cancellations in dense urban areas.</p>
+      <div class="flex gap-3 items-center"><div class="metric">Role: Interaction Designer</div><div class="text-gray-400 text-sm">Timeline: 2 months</div></div>
+    </section>
+
+    <section class="mb-6">
+      <h3 class="text-lg font-semibold mb-2">Problem</h3>
+      <p class="text-gray-400">Users experienced mismatched pickup points and ETA variance which led to failed pickups, cancellations and an increase in support tickets during peak hours.</p>
+    </section>
+
+    <section class="mb-6">
+      <h3 class="text-lg font-semibold mb-2">Process</h3>
+      <ul class="text-gray-400 pl-5 list-disc">
+        <li>Conducted mixed-method research: ride-alongs, driver interviews, and session recordings to identify friction points.</li>
+        <li>Sketches → interactive prototypes (Figma) focusing on pickup pin clarity, contextual hints and microcopy.</li>
+        <li>Worked with Maps/Backend to test different pickup-state affordances and priority heuristics using feature flags.</li>
+        <li>Ran two pilots, collected pickup-change logs and qualitative feedback, and iterated rapidly on microinteractions.</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h3 class="text-lg font-semibold mb-2">Design highlights</h3>
+      <p class="text-gray-400">Focused on clear affordances for pickup selection: a compact pin with contrast, a confirmation microflow, and a progressive disclosure for edge-case instructions (e.g., building entrances). Motion was used sparingly to show state changes without distracting drivers.</p>
+    </section>
+
+    <section class="mb-8">
+      <h3 class="text-lg font-semibold mb-2">Accessibility & edge cases</h3>
+      <p class="text-gray-400">Ensured color contrast for map pins, keyboard-accessible confirmation modals, and voice-over friendly labels so drivers with different abilities could rely on the same cues. Designed fallback flows for low-connectivity scenarios.</p>
+    </section>
+
+    <section class="mb-8">
+      <h3 class="text-lg font-semibold mb-2">Artifacts to show</h3>
+      <ul class="text-gray-400 pl-5 list-disc">
+        <li>Annotated map flows and edge-case decision tree</li>
+        <li>Figma prototypes showing state transitions and microinteractions</li>
+        <li>Pilot dashboards with pickup-change and ticketing metrics</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h3 class="text-lg font-semibold mb-2">Key takeaways</h3>
+      <p class="text-gray-400">Small, context-aware nudges delivered measurable improvements. Aligning product, maps engineering, and ops early reduced surprises during pilots and accelerated rollout.</p>
+    </section>
+
+    <section class="mb-8">
+      <h3 class="text-lg font-semibold mb-2">Outcome</h3>
+      <p class="text-gray-300">Anonymized: pickup-change rate fell ~10% in pilot areas; reduced support tickets related to pickup confusion. Riders reported higher confidence in pickup accuracy.</p>
+    </section>
+
+    <div class="flex gap-3 mb-16">
+      <a href="index.html" class="px-4 py-2 bg-gray-800 rounded-full border border-gray-700">Back</a>
+      <a class="px-4 py-2 bg-blue-600 rounded-full" href="#">Download one-pager</a>
+    </div>
+  </main>
+</body>
+</html>
